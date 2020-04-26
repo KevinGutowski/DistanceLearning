@@ -1,0 +1,26 @@
+/*CUSTOM TABLE*/
+table.inner-spacing {
+  width: 105%;
+  height: 105%;
+  border-collapse: collapse;
+}
+table.inner-spacing td, table.inner-spacing th {
+  padding: 3px 2px;
+}
+table.inner-spacing tr:nth-child(even) {
+  background: rgba(0, 121, 193, 0.2);
+}
+table.inner-spacing thead {
+  background: #0079C1;
+}
+table.inner-spacing  td > div {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+}
+table.inner-spacing tr:first-child > td > div {
+  margin-top: 5px;
+}
+table.inner-spacing tr:last-child > td > div {
+  margin-bottom: 5px;
+}
