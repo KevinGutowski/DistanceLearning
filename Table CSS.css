@@ -5,10 +5,14 @@ table.inner-spacing {
   border-collapse: collapse;
 }
 table.inner-spacing td, table.inner-spacing th {
-  padding: 3px 2px;
+  padding: 4px 16px;
 }
-table.inner-spacing tr:nth-child(even) {
+table.inner-spacing tr:nth-child(odd) {
   background: rgba(0, 121, 193, 0.2);
+}
+table.inner-spacing th:nth-child(2) {
+  min-width: 130px;
+  text-align: left;
 }
 table.inner-spacing thead {
   background: #0079C1;
